@@ -14,9 +14,9 @@ function Main() {
               Mudah Berbelanja <br /> dengan Voucher
             </h1>
             <p className="text-gray-700 mb-6">
-                Ultra Voucher merupakan perusahaan teknologi Indonesia yang bergerak di 
-                bidang industri voucher belanja, gift card, rewards dan loyalty engine yang 
-                memberikan kemudahan bagi masyarakat dalam akses dan berbelanja melalui voucher.
+              Simpel, praktis, dan tetap hemat~. Yuk, cobain sekarang dan rasain
+              betapa mudahnya belanja voucher favoritmu!<br />
+              Ultra Serba Bisa, Pakai Ultra Voucher
             </p>
             <button className="bg-green-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-600">
               Belanja Sekarang !
@@ -25,11 +25,7 @@ function Main() {
 
           <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center">
             <div className="relative">
-              <img
-                src="/shopping.png"
-                alt="shooping"
-                className="w-100"
-              />
+              <img src="/shopping.png" alt="shooping" className="w-100" />
             </div>
           </div>
         </div>

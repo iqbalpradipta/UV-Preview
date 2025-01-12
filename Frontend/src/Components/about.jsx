@@ -16,14 +16,14 @@ function About() {
       {/* Right Section */}
       <div className="mt-8 md:mt-0 md:ml-16 w-full md:w-1/2 text-center md:text-left">
         <h1 className="text-3xl font-bold text-gray-800">
-          About Us We have provide a quality driver
+          Kualitas Pelayanan Untuk Melayani Pelanggan Adalah Prioritas.
         </h1>
         <p className="text-gray-600 mt-4">
-          Fast Home is a fast-growing and promising courier and parcel service.
-          We offer excellent customer service to cater to your needs.
+          Kami membantu pelanggan untuk memberikan solusi jika anda memiliki masalah.
+          Masalah anda akan kami bantu selesaikan secepatnya.
         </p>
         <button className="mt-6 px-6 py-2 bg-green-500 text-white font-semibold rounded-lg hover:bg-green-600">
-          Read More
+          Hubungi Kami !
         </button>
       </div>
     </div>
