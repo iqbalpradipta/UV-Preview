@@ -4,7 +4,7 @@ function Content() {
   return (
     <>
       <div className="p-6 bg-gray-100">
-        <section className="grid grid-cols-3 gap-6 mb-6">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
           <div className="bg-white shadow p-4 rounded">
             <h3 className="text-lg font-semibold">Jumlah Product</h3>
             <p className="text-2xl font-bold">120</p>
@@ -18,7 +18,7 @@ function Content() {
             <p className="text-2xl font-bold">Rp. 500.000</p>
           </div>
         </section>
-        <section className="bg-white shadow p-4 rounded">
+        <section className="bg-white shadow p-4 rounded overflow-x-auto">
           <h3 className="text-lg font-semibold mb-4">Daftar Voucher</h3>
           <table className="w-full text-left border-collapse">
             <thead>

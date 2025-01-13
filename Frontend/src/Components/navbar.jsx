@@ -19,7 +19,6 @@ function Navbar() {
     <>
       <div>
         <nav className="bg-green-600 shadow-md p-4 flex items-center justify-between">
-          {/* Logo */}
           <div className="flex items-center space-x-2">
             <img
               className="w-14"
@@ -28,7 +27,6 @@ function Navbar() {
             />
           </div>
 
-          {/* Search Input (Hidden on small screens) */}
           <div className="hidden lg:flex flex-grow mx-4">
             <div className="relative w-full">
               <input
@@ -42,7 +40,6 @@ function Navbar() {
             </div>
           </div>
 
-          {/* Authentication and Icons */}
           <div className="hidden lg:flex items-center space-x-4">
             {!auth ? (
               <>

@@ -42,14 +42,12 @@ function Product() {
                 key={item.id}
                 className="bg-gray-100 rounded-lg shadow-md hover:shadow-lg transition-shadow"
               >
-                {/* Gambar */}
                 <div className="relative">
                   <img
                     src={item.image}
                     alt={item.name}
                     className="rounded-t-lg w-full h-40 object-cover"
                   />
-                  {/* Heart Icon */}
                   <div className="absolute top-2 right-2 bg-white p-2 rounded-full shadow-md">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +59,6 @@ function Product() {
                     </svg>
                   </div>
                 </div>
-                {/* Konten */}
                 <div className="p-4">
                   <h3 className="text-sm font-bold mb-2">{item.name}</h3>
                   <div className="bg-green-100 text-green-600 text-center text-xs font-medium py-1 px-3 rounded-full">

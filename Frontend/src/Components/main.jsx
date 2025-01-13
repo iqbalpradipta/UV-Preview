@@ -5,7 +5,6 @@ function Main() {
     <>
       <section className="bg-green-200 p-20">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
-          {/* Bagian Kiri: Teks */}
           <div className="w-full md:w-1/2 text-center md:text-left">
             <p className="text-green-500 font-bold uppercase mb-2">
               Ultra Voucher

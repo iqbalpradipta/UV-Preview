@@ -15,7 +15,6 @@ function Footer() {
   return (
     <footer className="bg-green-800 text-white py-5">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8">
-        {/* Our Office */}
         <div>
           <h3 className="text-xl font-bold text-yellow-400">Our Office</h3>
           <p className="mt-4 text-sm">
@@ -24,7 +23,6 @@ function Footer() {
           </p>
         </div>
 
-        {/* Customer Support */}
         <div>
           <h3 className="text-xl font-bold text-yellow-400">
             Customer Support
@@ -41,7 +39,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Social Media */}
         <div>
           <h3 className="text-xl font-bold text-yellow-400">Social Media</h3>
           <div className="flex space-x-4 mt-4">
@@ -63,7 +60,6 @@ function Footer() {
           </div>
         </div>
 
-        {/* Bergabung dengan Kami */}
         <div>
           <h3 className="text-xl font-bold text-yellow-400">
             Bergabung dengan Kami
@@ -92,7 +88,6 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Unduh Aplikasi Kami */}
         <div>
           <h3 className="text-xl font-bold text-yellow-400">
             Unduh Aplikasi Kami
@@ -115,7 +110,6 @@ function Footer() {
           </div>
         </div>
       </div>
-      {/* Footer Bottom */}
       <div className="mt-5 pt-4 text-center text-sm">
         <p>© 2025 Ultra Voucher. All rights reserved.</p>
       </div>
