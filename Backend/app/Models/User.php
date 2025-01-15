@@ -2,12 +2,24 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+use Tymon\JWTAuth\Contracts\JWTSubject;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class User extends Model
+class User extends Authenticatable implements JWTSubject
 {
-    use HasFactory;
+    public function getJWTIdentifier()
+    {
+        return $this->getKey();
+    }
+
+    public function getJWTCustomClaims()
+    {
+        return [
+            'name' => $this->name,
+            'email' => $this->email,
+            'numberPhone' => $this->numberPhone,
+        ];
+    }
 
     protected $fillable = [
         'name',
@@ -15,12 +27,4 @@ class User extends Model
         'password',
         'numberPhone',
     ];
-
-    public function promotion() {
-        return $this->hasOne(Promotion::class);
-    }
-
-    public function article() {
-        return $this->hasMany(Article::class);
-    }
 }
